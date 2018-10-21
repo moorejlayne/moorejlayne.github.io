@@ -38,17 +38,17 @@ body {
 ------------------------------------------- */
 
 #home {
-    background-image: url('../images/bridge-reduced.JPG');
+    background-image: url('../images/bridge.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
-@media screen (min-width: 992px) {   
+@media (hover: none) {   
     #home {
-        background-image: url("../images/bridge.jpg");
+        background-attachment: initial;
     }
 }
 
