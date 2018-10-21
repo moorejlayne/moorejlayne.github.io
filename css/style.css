@@ -1,0 +1,181 @@
+/* -------------------------------------------
+------------  Created by Jacob L Moore
+------------  2018
+------------------------------------------- */
+
+
+/* -------------------------------------------
+------------  GLOBAL
+------------------------------------------- */
+
+body {
+    font-family: "Lora";
+}
+
+
+/* -------------------------------------------
+------------  NAVIGATION
+------------------------------------------- */
+
+.bg-dark {
+    background-color: rgba(32, 32, 32, 0.75) !important;
+}
+
+.btn-outline-secondary {
+    color: whitesmoke;
+    background-color: transparent;
+    background-image: none;
+    border-color: whitesmoke;
+}
+
+.nav-link {
+    display: block;
+    padding: .25rem 1rem;
+}
+
+
+/* -------------------------------------------
+------------  HOME
+------------------------------------------- */
+
+#home {
+    background: url('../images/bridge.JPG') no-repeat center 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+
+.top-container {
+    padding-bottom: 40%;
+}
+
+.top-heading {
+    text-align: center;
+    color: white;
+    background-color: rgba(32, 32, 32, 0.75);
+}
+
+.top-heading h1 {
+    text-shadow: 2px 2px 4px black;    
+    font-size: 4em;
+    font-family: 'Kaushan Script';
+}
+
+.top-heading p {
+    text-shadow: 2px 2px 1px black;    
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 1.8em;
+    font-family: 'Caveat';
+
+}
+
+
+
+/* -------------------------------------------
+------------  SECTIONS
+------------------------------------------- */
+
+/* Wrapping */
+.custom-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0px;
+}
+
+/* Section headings (e.g. Research) */
+.heading-container {
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 30px;
+    background-color: rgba(32, 32, 32, 0.75);
+    color: white;
+}
+
+.heading-container h1 {
+    padding: 2% 0px 0px 0px;
+    font-size: 3.5em;
+    font-family: "IM Fell French Canon SC";
+    text-shadow: 4px 4px 6px black; 
+}
+
+.heading-container p {
+    font-size: 2em;
+    text-shadow: 2px 2px 1px black; 
+    font-family: 'Caveat';
+}
+
+/* Section sub headings (e.g Projects) */
+.subheading-container {
+    text-align: center;
+    font-family: "IM Fell French Canon SC";
+    color: black;
+}
+
+.subheading-container h2 {
+    font-size: 3em;
+}
+
+.subheading-container h2::before {
+    display: flex;
+    content: "";
+    height: 2px;
+    width: 25%;
+    margin: 3% auto;
+    box-shadow: 5px 2px 0px;
+}
+
+/* Projects */
+.projects-container {
+    color: black;
+    padding-top: 20px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Skills */
+.skills-container {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.skills-img {
+    padding: 20px;
+    height: 150px;
+}
+
+/* Cards */
+.card {
+    display: inline-block !important;
+    min-width: 250px;
+}
+
+/* Background color */
+#software, #research, #teaching {
+    background-color: rgb(170, 180, 190);
+}
+
+
+
+/* -------------------------------------------
+------------  FOOTER
+------------------------------------------- */
+
+#footer {
+    background-color: rgba(32, 32, 32, 1);
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
