@@ -12,7 +12,6 @@ body {
     font-family: "Lora";
 }
 
-
 /* -------------------------------------------
 ------------  NAVIGATION
 ------------------------------------------- */
@@ -39,7 +38,9 @@ body {
 ------------------------------------------- */
 
 #home {
-    background: url('../images/bridge.JPG') no-repeat center 100%;
+    background-image: url('../images/bridge.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 100px;
