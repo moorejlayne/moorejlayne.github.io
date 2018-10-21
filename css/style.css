@@ -38,12 +38,18 @@ body {
 ------------------------------------------- */
 
 #home {
-    background-image: url('../images/bridge.JPG');
+    background-image: url('../images/bridge-reduced.JPG');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 100px;
+    padding-top: 200px;
+}
+
+@media screen (min-width: 992px) {   
+    #home {
+        background-image: url("../images/bridge.jpg");
+    }
 }
 
 .top-container {
