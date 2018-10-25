@@ -10,6 +10,7 @@
 
 body {
     font-family: "Lora";
+    position: relative;
 }
 
 /* -------------------------------------------
@@ -27,9 +28,21 @@ body {
     border-color: whitesmoke;
 }
 
+.btn-outline-secondary:hover {
+    background-color: rgba(176, 183, 185, 1);
+}
+
 .nav-link {
     display: block;
     padding: .25rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active .btn-outline-secondary {
+    background-color: rgba(176, 183, 185, 0.45);
+}
+
+.navbar-dark .navbar-nav .nav-link.active .btn-outline-secondary:hover {
+    background-color: rgba(176, 183, 185, 1);
 }
 
 
@@ -77,6 +90,12 @@ body {
 
 }
 
+/* Smooth scrolling */
+window.scroll({
+    top: 2500,
+    left: 0,
+    behavior: 'smooth'
+});
 
 
 /* -------------------------------------------
